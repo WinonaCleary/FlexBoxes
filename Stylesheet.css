@@ -1,0 +1,171 @@
+html{
+    background-color: cornflowerblue;
+}
+
+h1{
+    align-self: center;
+    font-size: 26pt;
+    color: darkblue;
+}
+
+nav{
+    background-color: palegreen;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    margin: 0px;
+    text-align: right;
+    justify-content: center;
+}
+
+a{
+    margin: 20px;
+    color: seagreen;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+nav a:target{
+    color: greenyellow;
+}
+
+.Splash{
+    width: 100%;
+    background-image: url("Splash.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+   margin: 0px;
+    height: 325px;
+    font-size: 24pt;
+    color: white;
+    justify-content: center;
+}
+
+.title{
+    font-size: 30pt;
+    color: darkblue;
+    margin-top: 180px;
+}
+
+.Container{
+    display: flex;
+    flex-flow: wrap;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+    margin: 0px;
+}
+
+.Container1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    height: 220px;
+    width: 50%;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Container2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    height: 200px;
+    margin: 20px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box1{
+    height: 35px;
+    width: 325px;
+    background-color: yellow;
+}
+
+.Box2{
+    height: 100px;
+    width: 325px;
+    background-color: palegreen;
+    margin: 0px;
+
+}
+
+.Space{
+    width: 100%;
+    height: 40px;
+    background-color: cornflowerblue;
+    margin: 10px;
+}
+
+.Subtitle{
+    font-size: 24pt;
+    color: white;
+    padding-bottom: -25px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.TextBox{
+    width: 100%;
+    height: 325px;
+    background-color: palegreen;
+    display: flex;
+    align-items: center;
+
+}
+
+p{
+    font-size: 16pt;
+    color: darkblue;
+    text-align: center;
+    align-self: center;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.Container3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    height: 300px;
+    margin: 20px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box3{
+    height: 35px;
+    width: 325px;
+    background-color: yellow;
+}
+
+.Box4{
+    height: 100px;
+    width: 325px;
+    background-color: palegreen;
+    margin: 0px;
+}
+
+.footer{
+    background-color: palegreen;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    font-size: 16pt;
+    color: seagreen;
+    width: 50%;
+    text-align: center;
+}
